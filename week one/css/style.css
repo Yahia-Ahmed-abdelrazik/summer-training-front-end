@@ -1,0 +1,74 @@
+/* Reset styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define CSS variables */
+:root {
+    --main-bg-color: #0B9586;
+}
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* Container styles */
+.container {
+    padding: 0 150px;
+    width: 100%;
+}
+
+/* List and link styles */
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+/* Header styles */
+header {
+    background-color: var(--main-bg-color);
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.logo {
+    max-width: 157px;
+    max-height: 54px;
+}
+
+nav ul {
+    display: flex;
+    gap: 8px;
+}
+
+nav ul li a {
+    padding: 8px 28px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, .06);
+    border-bottom: 3px solid rgba(0, 0, 0, .3);
+}
+
+nav .call-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
