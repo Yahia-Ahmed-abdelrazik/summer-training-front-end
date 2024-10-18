@@ -199,6 +199,9 @@ hr.line {
 
 /* Friendliest-content */
 
+.Friendliest {
+    margin-bottom: 75px;
+}
 
 
 .Friendliest-content {
@@ -270,6 +273,125 @@ hr.line {
     letter-spacing: 3px;
     color: #0B9586;
 }
+
+/* green-banner */
+.green-banner {
+    position: relative;
+}
+
+.green-banner-text {
+    position: absolute;
+    top: 30%;
+    text-align: start;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.green-banner-text h2 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50.83px;
+    letter-spacing: .8px;
+
+}
+
+.green-banner-text p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    max-width: 600px;
+}
+
+.green-banner-text button {
+    background-color: #FFBB1C;
+}
+
+/* Solar Kits */
+.solar-kits {
+    color: black;
+}
+
+.solar-kits-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 41px;
+    padding: 80px 0;
+}
+
+.solar-kits-content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.solar-kits-content-text h2 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50.83px;
+    letter-spacing: -0.02em;
+}
+
+.solar-kits-content-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    max-width: 80%;
+    color: rgba(0, 0, 0, 0.646);
+}
+
+.solar-kits-content-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.solar-kit-card {
+    box-shadow: 0px 4px 30px 0px #0000000D;
+}
+
+.solar-kit-card img {
+    width: 100%;
+}
+
+.solar-kit-card-text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 25px;
+    padding: 20px;
+}
+
+.solar-kit-card-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    /* ellipsis */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    max-height: calc(1.5em * 3);
+}
+
+.solar-kit-card-text a {
+    color: #0B9586;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
 
 /* responsive styles */
 
