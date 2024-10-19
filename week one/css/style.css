@@ -15,7 +15,7 @@
 body {
     font-family: "Inter", sans-serif;
     color: white;
-    height: 5000px;
+    height: 10000px;
 }
 
 /* Container styles */
@@ -391,7 +391,42 @@ hr.line {
     line-height: 24px;
 }
 
+/* repiair-panner */
+.repair-panner {
+    position: relative;
+}
 
+
+.repaire-panner-text {
+    position: absolute;
+    background-color: #00000091;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 44px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    backdrop-filter: blur(24px)
+}
+
+.repaire-panner-text h2 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50.83px;
+    letter-spacing: 1px;
+}
+
+.repaire-panner-text p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    width: 770px;
+    word-spacing: 1.5px;
+}
 
 /* responsive styles */
 
