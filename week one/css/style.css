@@ -6,6 +6,10 @@
     /* outline: 1px solid red; */
 }
 
+.bg {
+    background-color: blueviolet !important;
+}
+
 /* Define CSS variables */
 :root {
     --main-bg-color: #0B9586;
@@ -548,7 +552,6 @@ hr.line {
 /* our-values */
 .our-values {
     padding: 80px 0;
-
 }
 
 .our-values .our-values-text {
@@ -600,6 +603,111 @@ hr.line {
     font-weight: 400;
     line-height: 24px;
 }
+
+/* about-woc */
+.about-woc {
+    margin: 80px 0;
+}
+
+.about-woc-flex {
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: 32px;
+}
+
+.about-woc-right-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 28px;
+    max-width: 400px;
+}
+
+.about-woc-right-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.about-woc-right-text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.about-woc-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 40px;
+    background: #3CAB900F;
+    border-radius: 20px;
+}
+
+.about-woc-left-title {
+    display: flex;
+    justify-content: space-between;
+    width: 620px;
+}
+
+.about-woc-left .about-woc-left-title .dots {
+    display: flex;
+}
+
+.about-woc-left .about-woc-left-title .dots .dot {
+    width: 8px;
+    height: 8px;
+    margin: 0 3px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+
+.about-woc-left .about-woc-left-title .dots div:first-child {
+    background: #6B6B6B;
+}
+
+.about-woc-left .about-woc-left-title h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.16px;
+    color: #3CAB90;
+}
+
+.about-woc-left p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    max-width: 490px;
+    margin-top: 20px;
+    margin-bottom: 65px;
+}
+
+.about-woc-left-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.about-woc-left-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-woc-left-img h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.about-woc-left-ptn {
+    display: flex;
+    gap: 10px;
+}
+
+
 
 /* responsive styles */
 
