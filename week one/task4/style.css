@@ -39,12 +39,12 @@ body {
 
 /* card */
 
-.card {
+.card-Article {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card:hover {
+.card-Article:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -52,8 +52,7 @@ body {
 /* sidebar */
 
 .sidebar {
-    background-color: #f8f9fa;
-    padding: 20px;
+    background-color: #f8f9fa !important;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
