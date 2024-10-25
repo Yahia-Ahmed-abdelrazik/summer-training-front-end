@@ -10,6 +10,12 @@ window.onscroll = function () {
   }
 };
 
+document.addEventListener("DOMContentLoaded", function () {
+  // Hide the back to top button on page load
+  const backToTopBtn = document.getElementById("backToTop");
+  backToTopBtn.style.display = "none";
+});
+
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
