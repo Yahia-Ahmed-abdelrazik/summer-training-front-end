@@ -212,6 +212,22 @@ hr.line {
 }
 
 /* Friendliest-content */
+.Friendliest .solar-charging {
+    width: 260px;
+    height: 200px;
+    background-color: var(--accent-yellow);
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Friendliest .solar-charging p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+}
 
 .Friendliest {
     margin-bottom: 75px;
@@ -854,6 +870,14 @@ footer .footer-flex {
         width: 250px;
     }
 
+    .hero-content .hero-content-number {
+        top: 80px;
+    }
+
+    .hero-content-text {
+        top: 250px;
+    }
+
     .hero .hero-content-text h1 {
         font-size: 22px;
         font-weight: 500;
@@ -881,6 +905,11 @@ footer .footer-flex {
     }
 
     /* Friendliest-content */
+
+    .Friendliest .solar-charging {
+        display: none;
+    }
+
     .Friendliest-content {
         flex-direction: column;
     }

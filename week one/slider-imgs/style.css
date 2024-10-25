@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: linear-gradient(180deg, rgb(30, 27, 79) 0%, rgb(26, 26, 58) 35%, rgb(48, 74, 79) 100%);
+    background: linear-gradient(180deg, rgb(82, 78, 158) 0%, rgb(63, 63, 122) 35%, rgb(86, 136, 146) 100%);
 }
 
 .gallery {
