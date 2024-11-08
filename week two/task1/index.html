@@ -6,19 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Tailwind Project</title>
     <link href="dist/tailwind.css" rel="stylesheet">
+    <!--  font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- nav -->
-    <nav class="bg-white fixed w-full z-20 top-0 start-0 mt-6">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+
+    <!--start nav -->
+    <nav class="bg-white lg:bg-transparent fixed  w-full z-20 top-0 start-0 mt-5 md:mt-7 lg:mt-[45px]  ">
+        <div class="main-container flex flex-wrap items-center justify-between">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="./assets/Logo.png" class="h-8 md:h-10" alt="Logo">
+                <img src="./assets/Logo.png" class="h-8 md:h-10 2xl:h-12" alt="Logo">
             </a>
-            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                <button type="button"
-                    class="text-white bg-primary hover:bg-secondary focus:outline-none  font-medium rounded-sm text-sm px-8 md:px-10 py-3 text-center">Sign
-                    Up
+            <div class="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button type="button" class="main-btn bg-primary hover:bg-secondary">
+                    <span class="px-1 leading-6">
+                        Sign
+                        Up
+                    </span>
                 </button>
                 <button data-collapse-toggle="navbar-sticky" type="button"
                     class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
@@ -33,7 +40,7 @@
             </div>
             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
                 <ul
-                    class="flex flex-col p-4 md:p-0 mt-4 font-semibold text-lg lg:text-xl rounded-lg md:space-x-8 lg:space-x-14 rtl:space-x-reverse md:flex-row md:mt-0  md:bg-white">
+                    class="flex flex-col p-4 md:p-0 mt-4 font-semibold  text-lg lg:text-xl 2xl:text-2xl rounded-lg md:space-x-8 lg:space-x-12 2xl:space-x-14 rtl:space-x-reverse md:flex-row md:mt-0  md:bg-white">
                     <li>
                         <a href="#"
                             class="block py-2 px-3 text-white bg-primary rounded md:bg-transparent md:text-primary md:p-0"
@@ -55,9 +62,51 @@
             </div>
         </div>
     </nav>
-    <!--  -->
+    <!-- end nav -->
 
 
+    <!-- start hero -->
+    <main class="main-container">
+        <div class="hero mt-40 md:mt-52 2xl:mt-60 ">
+            <div class="flex flex-col">
+                <div
+                    class="flex flex-col-reverse md:flex-row gap-8 md:gap-0 lg:gap-4 2xl:gap-8  md:justify-between md:items-center lg:items-start ">
+                    <div
+                        class="md:flex-[2] lg:flex-[3] text-center md:text-left   lg:flex lg:flex-col lg:justify-evenly lg:self-stretch 2xl:flex-none 2xl:justify-between 2xl:self-auto   ">
+                        <h1
+                            class=" text-primary 2xl:tracking-normal text-4xl md:text-6xl lg:text-[80px] xl:text-[100px] 2xl:text-[133px]  font-medium 2xl:leading-[160px] mb-5   2xl:mb-11  ">
+                            Interior
+                            Design</h1>
+                        <p
+                            class="text-lg md:text-lg lg:text-xl xl:text-2xl lg:mx-2 font-medium text-secondary lg:leading-8 2xl:leading-[42px] tracking-wide md:max-w-xl lg:max-w-2xl 2xl:max-w-3xl ">
+                            Step into
+                            a
+                            world
+                            where the art
+                            of Interior
+                            Design is
+                            meticulously crafted
+                            to
+                            bring together
+                            timeless elegance and
+                            cutting-edge
+                            modern Innovation, Allowing you to transform your living spaces into the epitome of luxury
+                            and sophistication</p>
+                    </div>
+                    <div class=" md:flex-1 lg:flex-[2]   ">
+                        <img src="./assets/Image 1.png" class="rounded-md flex-shrink-0  mx-auto  xl:ml-auto xl:mx-0"
+                            alt=" img1">
+                    </div>
+                </div>
+
+                <div></div>
+            </div>
+        </div>
+    </main>
+    <!-- end hero -->
+
+
+    <!-- js -->
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 </body>
 
