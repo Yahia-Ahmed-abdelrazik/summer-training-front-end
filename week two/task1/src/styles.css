@@ -35,4 +35,8 @@ xl — 1280px (Extra large devices, like desktops)
     @apply text-white focus:outline-none font-medium rounded-md text-sm px-8 2xl:px-12 lg:px-10 md:px-8 py-3 2xl:py-4 text-center md:text-lg 2xl:text-xl
 }
 
+.section-padding {
+    @apply py-16 md:py-20 lg:py-28 2xl:py-44
+}
+
 /*  */
