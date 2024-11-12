@@ -801,6 +801,10 @@ video {
   gap: 1rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .gap-8 {
   gap: 2rem;
 }
@@ -809,6 +813,10 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.self-start {
+  align-self: flex-start;
 }
 
 .rounded {
@@ -825,6 +833,10 @@ video {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border-t {
+  border-top-width: 1px;
 }
 
 .border-solid {
@@ -849,6 +861,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-2 {
@@ -889,6 +906,10 @@ video {
 
 .pt-3 {
   padding-top: 0.75rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -934,6 +955,10 @@ video {
 
 .leading-6 {
   line-height: 1.5rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
 }
 
 .leading-8 {
@@ -1258,6 +1283,11 @@ xl — 1280px (Extra large devices, like desktops)
     text-align: left;
   }
 
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -1265,6 +1295,11 @@ xl — 1280px (Extra large devices, like desktops)
 
   .md\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
@@ -1299,6 +1334,10 @@ xl — 1280px (Extra large devices, like desktops)
 
   .lg\:mt-20 {
     margin-top: 5rem;
+  }
+
+  .lg\:mt-5 {
+    margin-top: 1.25rem;
   }
 
   .lg\:mt-\[45px\] {
@@ -1341,6 +1380,10 @@ xl — 1280px (Extra large devices, like desktops)
     flex: 3;
   }
 
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1355,6 +1398,10 @@ xl — 1280px (Extra large devices, like desktops)
 
   .lg\:justify-evenly {
     justify-content: space-evenly;
+  }
+
+  .lg\:gap-14 {
+    gap: 3.5rem;
   }
 
   .lg\:gap-4 {
@@ -1405,6 +1452,10 @@ xl — 1280px (Extra large devices, like desktops)
     line-height: 1.75rem;
   }
 
+  .lg\:leading-7 {
+    line-height: 1.75rem;
+  }
+
   .lg\:leading-8 {
     line-height: 2rem;
   }
@@ -1446,6 +1497,10 @@ xl — 1280px (Extra large devices, like desktops)
 
   .xl\:w-\[206px\] {
     width: 206px;
+  }
+
+  .xl\:gap-24 {
+    gap: 6rem;
   }
 
   .xl\:gap-8 {
@@ -1554,6 +1609,10 @@ xl — 1280px (Extra large devices, like desktops)
 
   .\32xl\:text-\[133px\] {
     font-size: 133px;
+  }
+
+  .\32xl\:leading-10 {
+    line-height: 2.5rem;
   }
 
   .\32xl\:leading-\[160px\] {

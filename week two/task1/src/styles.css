@@ -16,27 +16,26 @@ xl — 1280px (Extra large devices, like desktops)
 
 /* global styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* outline: 1px solid red !important; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red !important; */
 }
 
 /* body {
     font-family: 'Inter', sans-serif !important;
 } */
 
-
 .main-container {
-    @apply mx-5 md:mx-10 lg:mx-12 xl:mx-16 2xl:mx-[105px]
+  @apply mx-5 md:mx-10 lg:mx-12 xl:mx-16 2xl:mx-[105px];
 }
 
 .main-btn {
-    @apply text-white focus:outline-none font-medium rounded-md text-sm px-8 2xl:px-12 lg:px-10 md:px-8 py-3 2xl:py-4 text-center md:text-lg 2xl:text-xl
+  @apply text-white focus:outline-none font-medium rounded-md text-sm px-8 2xl:px-12 lg:px-10 md:px-8 py-3 2xl:py-4 text-center md:text-lg 2xl:text-xl;
 }
 
 .section-padding {
-    @apply py-16 md:py-20 lg:py-28 2xl:py-44
+  @apply py-16 md:py-20 lg:py-28 2xl:py-44;
 }
 
 /*  */
