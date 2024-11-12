@@ -35,7 +35,7 @@ xl — 1280px (Extra large devices, like desktops)
 }
 
 .section-padding {
-  @apply py-16 md:py-20 lg:py-28 2xl:py-44;
+  @apply my-16 md:my-20 lg:my-28 2xl:my-44;
 }
 
 /*  */
