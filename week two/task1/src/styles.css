@@ -21,9 +21,10 @@ xl — 1280px (Extra large devices, like desktops)
   box-sizing: border-box;
   /* outline: 1px solid red !important; */
 }
-
-/* body {
+/* 
+body {
     font-family: 'Inter', sans-serif !important;
+    
 } */
 
 .main-container {
