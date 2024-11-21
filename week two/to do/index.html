@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tailwind Project</title>
+    <link href="dist/tailwind.css" rel="stylesheet">
+    <!--  font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div id="notificationContainer" class="fixed top-4 right-4 space-y-4 z-50"></div>
+
+    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+        <h1 class="text-2xl font-bold mb-4 text-center ">To-Do List</h1>
+        <form id="taskForm" class="flex gap-2 mb-4">
+            <input type="text" id="taskInput" class="flex-1 p-2 border border-gray-300 rounded"
+                placeholder="Add a new task..." required />
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                Add
+            </button>
+        </form>
+        <ul id="taskList" class="space-y-2"></ul>
+    </div>
+
+    <div id="modals">
+        <!-- Update Modal -->
+        <div id="updateModal" class="hidden fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+                <h2 class="text-xl font-bold mb-4">Update Task</h2>
+                <input id="updateInput" type="text" class="w-full p-2 border border-gray-300 rounded mb-4" />
+                <div class="flex justify-end gap-2">
+                    <button id="cancelUpdateBtn" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">
+                        Cancel
+                    </button>
+                    <button id="confirmUpdateBtn" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                        Save
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Delete Confirmation Modal -->
+        <div id="deleteModal" class="hidden fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+                <h2 class="text-xl font-bold mb-4 text-center">Are you sure?</h2>
+                <p class="text-center mb-6">Do you really want to delete this task?</p>
+                <div class="flex justify-around">
+                    <button id="cancelDeleteBtn" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">
+                        No
+                    </button>
+                    <button id="confirmDeleteBtn" class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+                        Yes
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>
